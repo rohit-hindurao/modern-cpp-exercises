@@ -1,0 +1,14 @@
+cat > .gitignore << 'EOF'
+# Ignore compiled programs (files with no extension)
+*
+!*.*
+!*/
+!Makefile
+!CMakeLists.txt
+
+# Other build output
+*.o
+*.out
+build/
+.vscode/
+EOF
