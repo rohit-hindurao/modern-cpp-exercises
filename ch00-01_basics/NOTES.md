@@ -7,3 +7,24 @@ c++ tells you the standard in use:
 201703 = C++17 | 202002 = C++20 | 202302 = C++23
 
 My setup: g++ 13 on Ubuntu 24.04 → C++17 by default.
+
+comments are added in the program using "//" symbol. comments make the program more readable and the compiler ignores the comments when compiling the code. Multi line comments can be created using  "/*" at start and end of the comment. A proper use of comments is 
+"// This program calculates the student's final grade based on their test and homework scores."
+
+An object is used to store a value in memory. A variable is an object that has a name (identifier). Naming our objects let us refer to those objects again later in the program. It can be created by data_type followed by the name of variable.
+an example of creating and assigning variables :
+int a;         // default-initialization (no initializer)
+
+// Traditional initialization forms:
+int b = 5;     // copy-initialization (initial value after equals sign)
+int c ( 6 );   // direct-initialization (initial value in parenthesis)
+
+// Modern initialization forms (preferred):
+int d { 7 };   // direct-list-initialization (initial value in braces)
+int e {};      // value-initialization (empty braces)
+
+C++17 introduced the [[maybe_unused]] attribute, which allows us to tell the compiler that we’re okay with a variable being unused. The compiler will not generate unused variable warnings for such variables.
+
+If we want to print separate lines of output to the console, we need to tell the console to move the cursor to the next line. We can do that by outputting a newline. One way to output a newline is to output std::endl. But we prefer using "/n".
+
+std::cin (which stands for “character input”) reads input from keyboard. We typically use the extraction operator >> to put the input data in a variable
