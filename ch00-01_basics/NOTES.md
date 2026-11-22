@@ -28,3 +28,7 @@ C++17 introduced the [[maybe_unused]] attribute, which allows us to tell the com
 If we want to print separate lines of output to the console, we need to tell the console to move the cursor to the next line. We can do that by outputting a newline. One way to output a newline is to output std::endl. But we prefer using "/n".
 
 std::cin (which stands for “character input”) reads input from keyboard. We typically use the extraction operator >> to put the input data in a variable
+
+The syntax of the language requires that some elements are separated by whitespace. This mostly occurs when two keywords or identifiers must be placed consecutively, so the compiler can tell them apart.
+
+Literals and variables both have a value (and a type). Unlike a variable (whose value can be set and changed through initialization and assignment respectively), the value of a literal is fixed and cannot be changed. 
