@@ -10,8 +10,8 @@ No copy-paste: every program is typed, compiled with strict warnings, and explai
 | --- | --- | --- |
 | 0 | Introduction, compiling, build setup | ✅ Done|
 | 1 | C++ basics: statements, variables, initialization, I/O | ✅ Done |
-| 2 | Functions and files | ⏳ In Progress |
-| 4–10 | Types, operators, scope, control flow, conversions | ⏳ |
+| 2 | Functions and files | ✅ Done |
+| 3–10 | Types, operators, scope, control flow, conversions | ⏳ In Progress |
 | 11–17 | Overloading, references, pointers, classes, vectors | ⏳ |
 | 20–28 | Lambdas, smart pointers, move semantics, inheritance | ⏳ |
 
