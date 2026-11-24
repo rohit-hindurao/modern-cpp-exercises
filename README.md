@@ -27,7 +27,7 @@ C++ practice for robotics software engineering (ROS 2, autonomous robots), writt
 | # | Folder | Topic | Status |
 | --- | --- | --- | --- |
 | 1 | `ch00-01_basics/` | Compiling, variables, I/O, initialization | ✅ |
-| 2 | `ch02_functions/` | Functions, parameters, return values | ⏳ |
+| 2 | `ch02_functions/` | Functions, parameters, return values | ✅ |
 | 3 | `03_control_flow/` | Conditions, loops | ⏳ |
 | 4 | `04_references_pointers/` | References, pointers, const-correctness | ⏳ |
 | 5 | `05_stl/` | vector, map, algorithms, iterators | ⏳ |
