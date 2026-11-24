@@ -1,33 +1,45 @@
 # Modern C++ Exercises
 
-My solutions to [LearnCpp.com](https://www.learncpp.com/) lessons, written from scratch in **C++17** as part of my path to robotics software engineering (ROS 2, C++, Python).
+C++ practice for robotics software engineering (ROS 2, autonomous robots), written from scratch.
 
-No copy-paste: every program is typed, compiled with strict warnings, and explained in my own notes.
+## Setup
 
-## Progress
+| Item | Details |
+| --- | --- |
+| Language | C++17 |
+| Compiler | g++ 13 |
+| OS | Ubuntu 24.04 (WSL2) |
+| Build | `g++ -std=c++17 -Wall -Wextra -Wpedantic -Wshadow file.cpp -o main` |
+| Run | `./main` |
 
-| Chapter | Topic | Status |
+## Learning path
+
+| Stage | Resource | Status |
 | --- | --- | --- |
-| 0 | Introduction, compiling, build setup | ✅ Done|
-| 1 | C++ basics: statements, variables, initialization, I/O | ✅ Done |
-| 2 | Functions and files | ✅ Done |
-| 3–10 | Types, operators, scope, control flow, conversions | ⏳ In Progress |
-| 11–17 | Overloading, references, pointers, classes, vectors | ⏳ |
-| 20–28 | Lambdas, smart pointers, move semantics, inheritance | ⏳ |
+| 1. Foundations | LearnCpp.com (ch. 0–2) | ✅ |
+| 2. Main course | [ENPM702 – C++ for Robotics (UMD, Fall 2026)](https://enpm702-fall-2026-docs.readthedocs.io) | ⏳ |
+| 3. Concept videos | The Cherno (C++ series) | ⏳ |
+| 4. Practice | Exercism C++ track | ⏳ |
+| 5. ROS 2 in C++ | ENPM702 ROS 2 lectures (Jazzy + Gazebo Harmonic) | ⏳ |
 
-## Build and run
+## Topics
 
-Requires `g++` (tested with g++ 13 on Ubuntu 24.04, WSL2).
+| # | Folder | Topic | Status |
+| --- | --- | --- | --- |
+| 1 | `ch00-01_basics/` | Compiling, variables, I/O, initialization | ✅ |
+| 2 | `ch02_functions/` | Functions, parameters, return values | ⏳ |
+| 3 | `03_control_flow/` | Conditions, loops | ⏳ |
+| 4 | `04_references_pointers/` | References, pointers, const-correctness | ⏳ |
+| 5 | `05_stl/` | vector, map, algorithms, iterators | ⏳ |
+| 6 | `06_classes_oop/` | Classes, constructors, inheritance, polymorphism | ⏳ |
+| 7 | `07_modern_cpp/` | Move semantics, smart pointers, RAII, lambdas | ⏳ |
+| 8 | `08_templates/` | Template basics | ⏳ |
+| 9 | `09_concurrency/` | std::thread, mutex, atomics | ⏳ |
+| 10 | `10_ros2_cpp/` | rclcpp nodes, topics, services, actions, launch | ⏳ |
 
-    g++ -std=c++17 -Wall -Wextra -Wpedantic -Wshadow file.cpp -o main
-    ./main
+## Folder layout
 
-## Structure
-
-    chXX_topic/
-    ├── *.cpp      # exercises and lesson examples
-    └── NOTES.md   # key ideas, written from memory after each chapter
-
-## Why
-
-C++ is the core language of robotics software (ROS 2, real-time control). This repo is my foundation for building ROS 2 nodes and robotics systems.
+| File | Purpose |
+| --- | --- |
+| `*.cpp` | Exercises, typed by me |
+| `NOTES.md` | Key ideas, written from memory |
