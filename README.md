@@ -17,8 +17,8 @@ C++ practice for robotics software engineering (ROS 2, autonomous robots). Every
 | Stage | Resource | Status |
 | --- | --- | --- |
 | Foundations | LearnCpp.com (ch. 0–2) | ✅ |
-| Main course | ENPM702 – C++ for Robotics (University of Maryland, Fall 2026) | ⏳ |
-| Concept videos | The Cherno (C++ series) | ⏳ |
+| Main course | ENPM702 – C++ for Robotics (University of Maryland, Fall 2026) | ⏳ In Progress |
+| Concept videos | The Cherno (C++ series) | ⏳ Actively using |
 | Practice | Exercism C++ track | ⏳ |
 
 ## C++ topics (following ENPM702)
@@ -27,7 +27,7 @@ C++ practice for robotics software engineering (ROS 2, autonomous robots). Every
 | --- | --- | --- | --- |
 | 0 | `ch00-01_basics/` | Compiling, variables, I/O, initialization (LearnCpp) | ✅ |
 | 0 | `ch02_functions/` | Functions and files (LearnCpp) | ✅ |
-| L2 | `L02_intro_cpp/` | Variables, types, constants, namespaces | ⏳ |
+| L2 | `L02_intro_cpp/` | Variables, types, constants, namespaces | ⏳In Progress |
 | L3 | `L03_pointers_memory/` | Pointers, stack vs heap, references | ⏳ |
 | L4 | `L04_stl_containers/` | Strings, arrays, vectors, iterators | ⏳ |
 | L5 | `L05_functions_basics/` | Declarations, parameters, overloading, recursion | ⏳ |
