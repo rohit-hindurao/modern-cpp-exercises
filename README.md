@@ -1,6 +1,6 @@
 # Modern C++ Exercises
 
-C++ practice for robotics software engineering (ROS 2, autonomous robots), written from scratch.
+C++ practice for robotics software engineering (ROS 2, autonomous robots). Every line written from scratch by me.
 
 ## Setup
 
@@ -16,30 +16,45 @@ C++ practice for robotics software engineering (ROS 2, autonomous robots), writt
 
 | Stage | Resource | Status |
 | --- | --- | --- |
-| 1. Foundations | LearnCpp.com (ch. 0–2) | ✅ |
-| 2. Main course | [ENPM702 – C++ for Robotics (UMD, Fall 2026)](https://enpm702-fall-2026-docs.readthedocs.io) | ⏳ |
-| 3. Concept videos | The Cherno (C++ series) | ⏳ |
-| 4. Practice | Exercism C++ track | ⏳ |
-| 5. ROS 2 in C++ | ENPM702 ROS 2 lectures (Jazzy + Gazebo Harmonic) | ⏳ |
+| Foundations | LearnCpp.com (ch. 0–2) | ✅ |
+| Main course | ENPM702 – C++ for Robotics (University of Maryland, Fall 2026) | ⏳ |
+| Concept videos | The Cherno (C++ series) | ⏳ |
+| Practice | Exercism C++ track | ⏳ |
 
-## Topics
+## C++ topics (following ENPM702)
 
 | # | Folder | Topic | Status |
 | --- | --- | --- | --- |
-| 1 | `ch00-01_basics/` | Compiling, variables, I/O, initialization | ✅ |
-| 2 | `ch02_functions/` | Functions, parameters, return values | ✅ |
-| 3 | `03_control_flow/` | Conditions, loops | ⏳ |
-| 4 | `04_references_pointers/` | References, pointers, const-correctness | ⏳ |
-| 5 | `05_stl/` | vector, map, algorithms, iterators | ⏳ |
-| 6 | `06_classes_oop/` | Classes, constructors, inheritance, polymorphism | ⏳ |
-| 7 | `07_modern_cpp/` | Move semantics, smart pointers, RAII, lambdas | ⏳ |
-| 8 | `08_templates/` | Template basics | ⏳ |
-| 9 | `09_concurrency/` | std::thread, mutex, atomics | ⏳ |
-| 10 | `10_ros2_cpp/` | rclcpp nodes, topics, services, actions, launch | ⏳ |
+| 0 | `ch00-01_basics/` | Compiling, variables, I/O, initialization (LearnCpp) | ✅ |
+| 0 | `ch02_functions/` | Functions and files (LearnCpp) | ✅ |
+| L2 | `L02_intro_cpp/` | Variables, types, constants, namespaces | ⏳ |
+| L3 | `L03_pointers_memory/` | Pointers, stack vs heap, references | ⏳ |
+| L4 | `L04_stl_containers/` | Strings, arrays, vectors, iterators | ⏳ |
+| L5 | `L05_functions_basics/` | Declarations, parameters, overloading, recursion | ⏳ |
+| L6 | `L06_functions_advanced/` | Templates, lambdas, functors, std::function | ⏳ |
+| L7 | `L07_smart_pointers_move/` | unique_ptr, shared_ptr, weak_ptr, move semantics | ⏳ |
+| L8 | `L08_oop_basics/` | Classes, objects, encapsulation, constructors | ⏳ |
+| L9 | `L09_oop_advanced/` | Inheritance, polymorphism, abstraction | ⏳ |
+| + | `extra_concurrency/` | std::thread, mutex, atomics (my addition) | ⏳ |
+
+## ROS 2 topics (ENPM702 L10–L15)
+
+These are ROS 2 packages, so they live in a separate ROS 2 workspace repo, not here.
+
+| # | Topic | Status |
+| --- | --- | --- |
+| L10 | Nodes, publishers, subscribers, custom interfaces | ⏳ |
+| L11 | Parameters, launch files, executors | ⏳ |
+| L12 | Services, actions | ⏳ |
+| L13 | Coordinate frames and transforms (TF2) | ⏳ |
+| L14 | Lifecycle nodes | ⏳ |
+| L15 | Robot autonomy architecture (sense-plan-act) | ⏳ |
 
 ## Folder layout
 
 | File | Purpose |
 | --- | --- |
-| `*.cpp` | Exercises, typed by me |
+| `*.cpp` | Exercises, written by me |
 | `NOTES.md` | Key ideas, written from memory |
+
+Course credit: topics follow the ENPM702 syllabus by Zeid Kootbally (UMD). All code in this repo is my own.
